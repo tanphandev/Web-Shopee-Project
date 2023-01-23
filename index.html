@@ -1066,5 +1066,15 @@
 	
 </div> -->
 <!-- EndModal -->
+
+<!-- js -->
+<script>
+	// handle Click shop-cart on Mobile
+	const searchCart = document.querySelector('.header__search-cart-wrap')
+	const handleClickCart = () => {
+		searchCart.classList.toggle('clicked')
+	}
+	searchCart.addEventListener('click',handleClickCart)
+</script>
 </body>
 </html>
